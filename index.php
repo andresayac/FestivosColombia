@@ -28,6 +28,6 @@ $date = "$year-$month-$day";
 $esfestivo = $festivo->esFestivo($day,$month);
 
 
-echo '{"day": "'.$day.'","month": "'.$month.'","year": "'.$year.'","date": "'.$date.'","festive": '.(boolval($esfestivo) ? 'true' : 'false') .'}';
+echo '{"date": "'.$date.'","festive": '.(boolval($esfestivo) ? 'true' : 'false') .'}';
 
 ?>
