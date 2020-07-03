@@ -3,7 +3,7 @@
 ### Instalación
 
 ```sh
-$ git clone https://github.com/andresayac/FestivosColombia.git$ 
+$ git clone https://github.com/andresayac/FestivosColombia.git
 ```
 
 ### Utilizar
@@ -13,11 +13,10 @@ http://127.0.0.1/FestivosColombia
 http://localhost/FestivosColombia
 ```
 
-### Plugins
+### Parámetro
+Al momento de realizar la petición sin parámetros se toma el día actual en caso de reslizar la petición con los parámetros de la tabla sera devuelto un mensaje en json con la información del dia solicitado.
 
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
-
-| Plugin | README |
+| Parámetro | Ejemplo |
 | ------ | ------ |
 | day | 01-31 |
 | month | 01-12 |
