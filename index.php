@@ -7,8 +7,7 @@ setlocale(LC_ALL, 'es_ES');
 # - INCLUDE
 require_once 'festivos.php';
 
-# - INSTANCE
-$festivo = new festivos($year);
+
 
 # - VAR
 $date = date("Y-m-d");  
@@ -20,9 +19,10 @@ if (isset ($_REQUEST['day'],$_REQUEST['month'])){
   $day = $_REQUEST['day'];
   $month = $_REQUEST['month'];
 }
-
 $date = "$year-$month-$day";
 
+# - INSTANCE
+$festivo = new festivos($year);
 $esfestivo = $festivo->esFestivo($day,$month);
 
 
