@@ -14,7 +14,7 @@ http://localhost/FestivosColombia
 ```
 
 ### Parámetro
-Al momento de realizar la petición sin parámetros se toma el día actual en caso de reslizar la petición con los parámetros de la tabla sera devuelto un mensaje en json con la información del dia solicitado.
+Al momento de realizar la petición sin parámetros se toma el día actual en caso de realizar la petición con los parámetros de la tabla sera devuelto un mensaje en json con la información del dia solicitado.
 
 | Parámetro | Ejemplo |
 | ------ | ------ |
