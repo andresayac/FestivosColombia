@@ -22,3 +22,12 @@ Al momento de realizar la petición sin parámetros se toma el día actual en ca
 | month | 01-12 |
 | year | 2000 - 3000 |
 
+
+### Respuesta(Json)
+
+```json
+{
+  "date": "2020-07-03",
+  "festive": false
+}
+```
