@@ -24,6 +24,10 @@ Al momento de realizar la petición sin parámetros se toma el día actual en ca
 
 
 ### Respuesta(Json)
+```sh
+festive: true  -> Es Festivo
+festive: false -> No Festivo
+```
 
 ```json
 {
