@@ -20,7 +20,7 @@ Al momento de realizar la petición sin parámetros se toma el día actual en ca
 | ------ | ------ |
 | day | 01-31 |
 | month | 01-12 |
-| year | 2000 - 3000 |
+| year | 1900 - 3000 |
 
 
 ### Respuesta(Json)
