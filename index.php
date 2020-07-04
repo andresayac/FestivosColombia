@@ -2,7 +2,6 @@
 # - INIT
 error_reporting(0);
 ini_set("display_errors", false);
-setlocale(LC_ALL, 'es_ES');
 
 # - INCLUDE
 require_once 'festivos.php';
